@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">UTfamily</string>
+    <string name="app_title">智慧生活居家管理</string>
+
+    <!-- [START Firebase Authentication] -->
+    <string name="label_google_sign_in">Firebase + Google 登入</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="label_facebook_login">Firebase + Facebook 登入</string>
+    <string name="desc_facebook_login">Use a Facebook Login credential to authenticate with Firebase.</string>
+
+    <string name="label_twitter_login">Firebase + Twitter 登入</string>
+    <string name="desc_twitter_login">Use a Twitter Login credential to authenticate with Firebase.</string>
+
+    <string name="label_emailpassword">Email/Password 認證</string>
+    <string name="desc_emailpassword">Use an email and password to authenticate with Firebase.</string>
+
+    <string name="label_passwordless">Passwordless 認證</string>
+    <string name="desc_passwordless">Use only an email to authenticate with Firebase.</string>
+
+    <string name="label_phone_auth">Phone Number 認證</string>
+    <string name="desc_phone_auth">Use a phone number to authenticate with Firebase.</string>
+
+    <string name="label_anonymous_auth">Anonymous 認證</string>
+    <string name="desc_anonymous_auth">Sign in anonymously and then later upgrade to a full Firebase Auth user.</string>
+
+    <string name="label_custom_auth">Custom 認證</string>
+    <string name="desc_custom_auth">Use a custom token signed by your own server to authenticate with Firebase.</string>
+
+    <string name="label_firebase_ui">FirebaseUI Auth</string>
+    <string name="desc_firebase_ui">Use the FirebaseUI-Android library to authenticate with Firebase.</string>
+
+    <string name="hint_user_id">使用者 ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">登入</string>
+    <string name="create_account">註冊</string>
+    <string name="send_link">發送連結</string>
+    <string name="sign_out">登出</string>
+    <string name="verify_email">驗證帳號</string>
+    <string name="disconnect">取消連結</string>
+    <string name="loading">讀取中…</string>
+    <string name="custom_token">客製化 Token</string>
+    <string name="signed_in">已登入</string>
+    <string name="signed_out">已登出</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">帳號</string>
+    <string name="hint_password">密碼</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">認證失敗</string>
+    <string name="start_phone_auth">開始</string>
+    <string name="verify_phone_auth">驗證</string>
+    <string name="resend_phone_auth">重寄</string>
+    <string name="hint_phone_number">電話號碼</string>
+    <string name="hint_verification_code">驗證碼</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">驗證失敗</string>
+    <string name="status_verification_succeeded">驗證成功</string>
+    <string name="status_sign_in_failed">登入失敗</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase 使用者: %s</string>
+    <string name="firebase_user_management">Firebase 使用者管理</string>
+
+    <string name="google_status_fmt">Google 使用者: %s</string>
+    <string name="google_title_text">Google 登入</string>
+
+    <string name="facebook_status_fmt">Facebook 使用者: %s</string>
+    <string name="facebook_title_text">Facebook 登入</string>
+
+    <string name="emailpassword_status_fmt">Email 使用者: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="passwordless_status_fmt">Email 使用者: %1$s (verified: %2$b)</string>
+    <string name="passwordless_title_text">Passwordless 登入</string>
+    <string name="status_email_not_sent">Send link to your email to get started.</string>
+    <string name="status_email_sent">Link sent, check your email to continue.</string>
+    <string name="status_link_found">Link received, enter email to sign in.</string>
+
+    <string name="phone_title_text">電話號碼</string>
+
+    <string name="twitter_status_fmt">Twitter 使用者: %s</string>
+    <string name="twitter_title_text">Twitter 登入</string>
+
+    <string name="firebaseui_status_fmt">Firebase 使用者: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">使用者 ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+    <!-- [END Firebase Authentication] -->
+
+    <!-- [START Firebase Cloud Messaging] -->
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
+        news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+    <!-- [END Firebase Cloud Messaging] -->
+
+    <!-- [START 自動檢查更新] -->
+    <string name="CheckAppUpdate_update_no">取消</string>
+    <string name="CheckAppUpdate_update_yes">更新</string>
+    <string name="CheckAppUpdate_update_version">版本更新</string>
+    <string name="CheckAppUpdate_downloading">正在下载</string>
+    <string name="CheckAppUpdate_sdcard_not_mounted">SD卡未掛載</string>
+    <string name="CheckAppUpdate_sdcard_permissions_not_opened">您未打開SD卡權限</string>
+    <string name="CheckAppUpdate_friendly_reminder">友情提示</string>
+    <string name="CheckAppUpdate_sdcard_permission_need">需要SD卡讀取權限</string>
+    <string name="CheckAppUpdate_set_permission_yes">去設置</string>
+    <string name="CheckAppUpdate_set_permission_no">取消</string>
+    <string name="CheckAppUpdate_sdcard_permission_get_succeed">獲取SD卡權限成功</string>
+    <string name="CheckAppUpdate_sdcard_permission_get_failed">獲取SD卡權限失敗</string>
+    <string name="CheckAppUpdate_sdcard_permission_no">尚未獲取SD卡讀取權限</string>
+    <string name="CheckAppUpdate_setting_back">用戶從設置回來了</string>
+
+    <string name="CheckAppUpdate_download_cancel">取消</string>
+    <string name="CheckAppUpdate_download_ok">確定</string>
+    <string name="CheckAppUpdate_download_continue">繼續</string>
+    <string name="CheckAppUpdate_tips">溫馨提示</string>
+
+    <string name="CheckAppUpdate_find_new_version">發現新版本 : 1.0.9487</string>
+    <string name="CheckAppUpdate_update_notice">更新通知</string>
+    <string name="CheckAppUpdate_click_to_download_update">點擊以下載更新</string>
+    <!-- [END 自動檢查更新] -->
+
+    <!-- [START APP] -->
+    <string name="exit_app_ask">是否要離開程式?</string>
+    <string name="exit_app_yes">確定</string>
+    <string name="exit_app_no">取消</string>
+    <string name="click_again_to_exit">再按一次退出 UTfamily</string>
+
+    <string name="homepage">首頁</string>
+    <string name="management">管理</string>
+    <string name="member">會員</string>
+    <string name="setting">設定</string>
+    <!-- [END APP] -->
+</resources>

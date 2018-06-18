@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.MailCenterActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        />
+
+    <include layout="@layout/include_top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 訊息中心 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/color_F3F5F4"
+            />
+
+        <View
+            style="@style/MailFunctionDivider"
+            />
+
+        <!-- 共用裝置 -->
+        <RelativeLayout
+            android:id="@+id/rl_share_device"
+            style="@style/MailFunctionRl"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_share_device"
+                style="@style/MailFunctionIvLeft"
+                android:src="@mipmap/my_avatar"
+                />
+
+            <TextView
+                android:id="@+id/tv_share_device_up"
+                style="@style/MailFunctionTvUp"
+                android:text="共用裝置"
+                android:layout_toRightOf="@+id/iv_share_device"
+                android:layout_toEndOf="@+id/iv_share_device"
+                />
+
+            <TextView
+                android:id="@+id/tv_share_device_down"
+                style="@style/MailFunctionTvDown"
+                android:text="無消息"
+                android:layout_toRightOf="@+id/iv_share_device"
+                android:layout_toEndOf="@+id/iv_share_device"
+                />
+
+            <ImageView
+                android:id="@+id/iv_share_device_arrow"
+                style="@style/MailFunctionArrow"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            style="@style/MailFunctionDivider"
+            />
+
+        <!-- 家人邀請 -->
+        <RelativeLayout
+            android:id="@+id/rl_firebase_message"
+            style="@style/MailFunctionRl"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_firebase_message"
+                style="@style/MailFunctionIvLeft"
+                android:src="@mipmap/my_avatar"
+                />
+
+            <TextView
+                android:id="@+id/tv_firebase_message_up"
+                style="@style/MailFunctionTvUp"
+                android:text="家人邀請"
+                android:layout_toRightOf="@+id/iv_firebase_message"
+                android:layout_toEndOf="@+id/iv_firebase_message"
+                />
+
+            <TextView
+                android:id="@+id/tv_firebase_message_down"
+                style="@style/MailFunctionTvDown"
+                android:text="無消息"
+                android:layout_toRightOf="@+id/iv_firebase_message"
+                android:layout_toEndOf="@+id/iv_firebase_message"
+                />
+
+            <ImageView
+                android:id="@+id/iv_firebase_message_arrow"
+                style="@style/MailFunctionArrow"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            style="@style/MailFunctionDivider"
+            />
+
+        <!-- 商城消息 -->
+        <RelativeLayout
+            android:id="@+id/rl_dynamic_share"
+            style="@style/MailFunctionRl"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_dynamic_share"
+                style="@style/MailFunctionIvLeft"
+                android:src="@mipmap/my_avatar"
+                />
+
+            <TextView
+                android:id="@+id/tv_dynamic_share_up"
+                style="@style/MailFunctionTvUp"
+                android:text="商城消息"
+                android:layout_toRightOf="@+id/iv_dynamic_share"
+                android:layout_toEndOf="@+id/iv_dynamic_share"
+                />
+
+            <TextView
+                android:id="@+id/tv_dynamic_share_down"
+                style="@style/MailFunctionTvDown"
+                android:text="無消息"
+                android:layout_toRightOf="@+id/iv_dynamic_share"
+                android:layout_toEndOf="@+id/iv_dynamic_share"
+                />
+
+            <ImageView
+                android:id="@+id/iv_dynamic_share_arrow"
+                style="@style/MailFunctionArrow"
+                />
+
+        </RelativeLayout>
+
+        <View
+            style="@style/MailFunctionDivider"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_F3F5F4"
+        />
+
+</LinearLayout>

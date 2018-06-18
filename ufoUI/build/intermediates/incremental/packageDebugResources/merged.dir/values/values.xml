@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="btn_AmountView_normal">#DDDDDD</color>
+    <color name="btn_AmountView_select">@color/white</color>
+    <color name="colorPrimary">#9900CC</color>
+    <color name="gray_8c">#8C8C8C</color>
+    <color name="msg">@color/colorPrimary</color>
+    <color name="notify_point">@color/colorPrimary</color>
+    <color name="placeholder_color">#1A000000</color>
+    <color name="red">#ff0000</color>
+    <color name="selector_grey">#DDDDDD</color>
+    <color name="subscribe_category_bar_bg_night">#cc363636</color>
+    <color name="text_grey">#AEAEAE</color>
+    <color name="translucent">#08000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent10">#1A000000</color>
+    <color name="transparent10_white">#1Affffff</color>
+    <color name="transparent90_white">#E5ffffff</color>
+    <color name="unread">@color/colorPrimary</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="AlphaView"><attr format="reference" name="av_tabIconNormal"/><attr format="reference" name="av_tabIconSelected"/><attr format="string" name="av_tabText"/><attr format="dimension" name="av_tabTextSize"/><attr format="color" name="av_textColorNormal"/><attr format="color" name="av_textColorSelected"/><attr format="dimension" name="av_padding_top"/></declare-styleable>
+    <declare-styleable name="AmountView"><attr format="dimension" name="textSize"/><attr format="integer" name="minValue"/><attr format="integer" name="maxValue"/><attr format="integer" name="currentValue"/></declare-styleable>
+    <declare-styleable name="BorderTextView"><attr format="dimension" name="strokeWidth"/><attr format="dimension" name="cornerRadius"/><attr format="color" name="strokeColor"/><attr format="boolean" name="followTextColor"/></declare-styleable>
+    <declare-styleable name="BottomBarItem"><attr format="reference" name="iconNormal"/><attr format="reference" name="iconSelected"/><attr format="string" name="itemText"/><attr format="dimension" name="itemTextSize"/><attr format="color" name="textColorNormal"/><attr format="color" name="textColorSelected"/><attr format="dimension" name="itemMarginTop"/><attr format="boolean" name="openTouchBg"/><attr format="reference" name="touchDrawable"/><attr format="dimension" name="iconWidth"/><attr format="dimension" name="iconHeight"/><attr format="dimension" name="itemPadding"/><attr format="dimension" name="unreadTextSize"/><attr format="reference" name="unreadTextColor"/><attr format="reference" name="unreadTextBg"/><attr format="dimension" name="msgTextSize"/><attr format="reference" name="msgTextColor"/><attr format="reference" name="msgTextBg"/><attr format="reference" name="notifyPointBg"/><attr format="integer" name="unreadThreshold"/></declare-styleable>
+    <declare-styleable name="BottomBarLayout"><attr format="boolean" name="smoothScroll"/></declare-styleable>
+    <declare-styleable name="ColorTrackTabViewIndicator"><attr format="color" name="ctTabSelectedTextColor"/><attr format="color" name="ctTabIndicatorColor"/><attr format="color" name="ctTabTextColor"/><attr format="dimension" name="ctTabTextSize"/><attr format="dimension" name="ctTabWidth"/><attr format="enum" name="ctTabGravity">
+            <enum name="Grivity_Fill" value="0"/>
+            <enum name="Grivity_Center" value="1"/>
+        </attr><attr name="ctMode">
+            <enum name="scrollable" value="0"/>
+            <enum name="fixed" value="1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ColorTrackView"><attr format="string" name="ctvText"/><attr format="dimension" name="ctvText_size"/><attr format="color" name="ctvText_origin_color"/><attr format="color" name="ctvText_change_color"/><attr format="float" name="ctvProgress"/><attr format="integer" name="ctvDirection"/></declare-styleable>
+    <declare-styleable name="HtmlTextView"><attr format="reference" name="loadingImg"/><attr format="reference" name="errorImg"/><attr format="reference" name="defaultWidth"/><attr format="reference" name="defaultHeight"/></declare-styleable>
+    <declare-styleable name="PhoneEditText"><attr format="string" name="dividerString"/></declare-styleable>
+    <declare-styleable name="PowerfulEditText"><attr name="funcType">
+            <enum name="normal" value="-1"/>
+            <enum name="canClear" value="0"/>
+            <enum name="canWatchPwd" value="1"/>
+        </attr><attr format="reference" name="eyeClose"/><attr format="reference" name="eyeOpen"/><attr format="dimension" name="leftDrawableWidth"/><attr format="dimension" name="leftDrawableHeight"/><attr format="dimension" name="rightDrawableWidth"/><attr format="dimension" name="rightDrawableHeight"/></declare-styleable>
+    <declare-styleable name="PowerfulRecyclerView"><attr format="color" name="dividerColor"/><attr format="dimension" name="dividerSize"/><attr format="reference" name="dividerDrawable"/><attr format="boolean" name="useStaggerLayout"/><attr format="integer" name="numColumns"/><attr format="enum" name="rvOrientation">
+            <enum name="HORIZONTAL" value="0"/>
+            <enum name="VERTICAL" value="1"/>
+        </attr><attr format="dimension" name="dividerMarginLeft"/><attr format="dimension" name="dividerMarginRight"/></declare-styleable>
+    <declare-styleable name="PullZoomLayout"><attr format="reference" name="pzHeader"/><attr format="reference" name="pzMain"/></declare-styleable>
+    <declare-styleable name="TipView"><attr format="color" name="tipBackgroundColor"/><attr format="color" name="tipTextColor"/><attr format="string" name="tipText"/><attr format="dimension" name="tipTextSize"/></declare-styleable>
+    <string name="app_name">ufoUI</string>
+    <string name="net_error_msg">网络不给力</string>
+    <string name="no_comment">暂无评论，点击抢沙发</string>
+    <style name="TextAppearanceHome" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="TextAppearanceVideo" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

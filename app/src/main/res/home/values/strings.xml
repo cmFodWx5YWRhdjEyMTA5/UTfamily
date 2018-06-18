@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="current_temperature">Current Temp</string>
+    <string name="comfortable_pointer">舒適指標</string>
+    <string name="comfortable_temperature_pointer">溫度</string>
+    <string name="comfortable_temperature_pointer_show">26°C</string>
+    <string name="comfortable_humidity_pointer">濕度</string>
+    <string name="comfortable_humidity_pointer_show">60 %</string>
+    <string name="comfortable_brightness_pointer">亮度</string>
+    <string name="comfortable_brightness_pointer_show">35 %</string>
+    <string name="copyright">Smart Room Service 0251076 陳俊融 0451030 黃柏皓 智慧生活居家管理</string>
+    <string name="today_suggested_title">本日建議</string>
+    <string name="today_suggested_outline" tools:ignore="TypographyEllipsis">今(5)日東北季風及南方雲系影響，...</string>
+    <string name="today_suggested_content">.........明(12)日為多雲短暫陣雨或雷雨的天氣，外出請攜帶雨具
+
+高雄市今日市區最低溫為26.8度，最高溫為32.1度。
+
+高雄市明(12)日平地為多雲短暫陣雨或雷雨，氣溫28-33度，降雨機率30%；丘陵區(旗山)多雲短暫陣雨或雷雨，氣溫26-35度，降雨機率30%；山區（六龜）多雲短暫陣雨或雷雨，氣溫24-34度，降雨機率40%。
+
+高雄沿海明(12)日偏西轉東北風，4級以下雷雨區陣風8級下午轉5至6雷雨區陣風9級，浪高1至2公尺，沿海有長浪發生的機率，海邊活動請注意安全。
+
+旗津海域明(12)日乾潮時間13:01、23:51，漲潮時間05:59、18:42，海濱戲水請注意漲潮時間。日落時間18:44 (看夕陽請在此時間之前)。</string>
+    <string name="update_diary_title">更新日誌</string>
+    <string name="update_diary_outline" tools:ignore="TypographyEllipsis">2017/12/01新增舒適指標...</string>
+    <string name="update_diary_content">---------2017/11/17 提交-版本初稿。
+2017/11/24 進行頁面設計。
+<font color="#990000">2017/12/01 完成-頁面流程設計，建立-舒適指標。</font>
+2017/12/08 按圖施工，從0開始。
+2017/12/15 框架完成，臉書登入及氣象功能研究成功，新增-動態工具列。
+<font color="#990000">2017/12/22 更新至版本V2!!連結伺服器研究成功!!</font> 新增-海量按鈕功能。
+2017/12/29 改用-BBS版變色選單，新增-感測器連接列表，新增-即時監控及電費查詢頁面。
+<font color="#990000">2017/12/31 V3版本重大更新!!終於有封面啦!!</font> 新增-檢視內容跑馬燈，改用-新版滑動選單(圖標+文字)，新增-線上購物頁面，新增-帳戶頁面，優化-海量UI元件。
+<font color="#990000">2018/01/02 控制單一電器功能研究成功!!</font>
+<font color="#990000">2018/01/05 DEMO!!</font></string>
+    <string name="add_more"><u>(檢視內容)</u></string>
+</resources>

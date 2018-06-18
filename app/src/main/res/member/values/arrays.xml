@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="channel">
+        <item>推薦</item>
+        <item>手機</item>
+        <item>居家</item>
+        <item>家電</item>
+        <item>智能</item>
+        <item>影音</item>
+        <item>服飾</item>
+        <item>餐廚</item>
+        <item>健康</item>
+        <item>筆記本</item>
+        <item>飲食</item>
+        <item>日雜</item>
+        <item>洗護</item>
+        <item>配件</item>
+        <item>出行</item>
+        <item>箱包</item>
+        <item>嬰童</item>
+        <item>小米</item>
+        <item>品牌</item>
+        <item>Arduino</item>
+        <item>樹莓派</item>
+    </string-array>
+    <string-array name="channel_code">
+        <item></item>
+        <item>video</item>
+        <item>news_hot</item>
+        <item>news_society</item>
+        <item>news_entertainment</item>
+        <item>news_tech</item>
+        <item>news_car</item>
+        <item>news_sports</item>
+        <item>news_finance</item>
+        <item>news_military</item>
+        <item>news_world</item>
+        <item>news_fashion</item>
+        <item>news_game</item>
+        <item>news_travel</item>
+        <item>news_history</item>
+        <item>news_discovery</item>
+        <item>news_food</item>
+        <item>news_baby</item>
+        <item>news_regimen</item>
+        <item>news_story</item>
+        <item>news_essay</item>
+    </string-array>
+
+    <string-array name="channel_video">
+        <item>推荐</item>
+        <item>音乐</item>
+        <item>搞笑</item>
+        <item>社会</item>
+        <item>小品</item>
+        <item>生活</item>
+        <item>影视</item>
+        <item>娱乐</item>
+        <item>呆萌</item>
+        <item>游戏</item>
+        <item>原创</item>
+        <item>开眼</item>
+    </string-array>
+    <string-array name="channel_code_video">
+        <item>video</item>
+        <item>subv_voice</item>
+        <item>subv_funny</item>
+        <item>subv_society</item>
+        <item>subv_comedy</item>
+        <item>subv_life</item>
+        <item>subv_movie</item>
+        <item>subv_entertainment</item>
+        <item>subv_cute</item>
+        <item>subv_game</item>
+        <item>subv_boutique</item>
+        <item>subv_broaden_view</item>
+    </string-array>
+</resources>

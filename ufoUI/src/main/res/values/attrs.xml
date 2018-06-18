@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--BottomBarLayout-->
+    <declare-styleable name="BottomBarItem">
+        <!--默认状态下的图标-->
+        <attr name="iconNormal" format="reference"/>
+        <!--选中状态下的图标-->
+        <attr name="iconSelected" format="reference"/>
+
+        <!--底部文字-->
+        <attr name="itemText" format="string"/>
+        <!--文字大小-->
+        <attr name="itemTextSize" format="dimension"/>
+        <!--默认状态下的文字颜色-->
+        <attr name="textColorNormal" format="color"/>
+        <!--选中状态下的文字颜色-->
+        <attr name="textColorSelected" format="color"/>
+
+        <!--文字和图标的顶部距离-->
+        <attr name="itemMarginTop" format="dimension"/>
+
+        <!--是否开启触摸背景效果-->
+        <attr name="openTouchBg" format="boolean"/>
+        <!--设置触摸背景-->
+        <attr name="touchDrawable" format="reference"/>
+
+        <!--设置图标的宽度-->
+        <attr name="iconWidth" format="dimension"/>
+        <!--设置图标的高度-->
+        <attr name="iconHeight" format="dimension"/>
+
+        <!--设置BottomBarItem的padding-->
+        <attr name="itemPadding" format="dimension"/>
+
+        <!--设置未读数字体大小-->
+        <attr name="unreadTextSize" format="dimension"/>
+        <!--设置未读数字体颜色-->
+        <attr name="unreadTextColor" format="reference"/>
+        <!--设置未读数背景色-->
+        <attr name="unreadTextBg" format="reference"/>
+
+        <!--设置提示消息字体大小-->
+        <attr name="msgTextSize" format="dimension"/>
+        <!--设置提示消息字体颜色-->
+        <attr name="msgTextColor" format="reference"/>
+        <!--设置提示消息背景-->
+        <attr name="msgTextBg" format="reference"/>
+
+        <!--设置提示点背景-->
+        <attr name="notifyPointBg" format="reference"/>
+
+        <!--设置未读数组阈值 大于阈值的数字将显示为 n+ n为设置的阈值-->
+        <attr name="unreadThreshold" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="BottomBarLayout">
+        <attr name="smoothScroll" format="boolean"/>
+    </declare-styleable>
+
+
+	<!--透明渐变的TabView-->
+    <declare-styleable name="AlphaView">
+        <attr name="av_tabIconNormal" format="reference"/>
+        <attr name="av_tabIconSelected" format="reference"/>
+        <attr name="av_tabText" format="string"/>
+        <attr name="av_tabTextSize" format="dimension"/>
+        <attr name="av_textColorNormal" format="color"/>
+        <attr name="av_textColorSelected" format="color"/>
+        <attr name="av_padding_top" format="dimension"/>
+    </declare-styleable>
+	
+    <declare-styleable name="ColorTrackTabViewIndicator">
+        <attr name="ctTabSelectedTextColor" format="color"/>
+        <attr name="ctTabIndicatorColor" format="color"/>
+        <attr name="ctTabTextColor" format="color"/>
+        <attr name="ctTabTextSize" format="dimension"/>
+        <attr name="ctTabWidth" format="dimension"/>
+        <attr name="ctTabGravity" format="enum">
+            <enum name="Grivity_Fill" value="0"/>
+            <enum name="Grivity_Center" value="1"/>
+        </attr>
+        <attr name="ctMode">
+            <enum name="scrollable" value="0"/>
+            <enum name="fixed" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ColorTrackView">
+        <attr name="ctvText" format="string"/>
+        <attr name="ctvText_size" format="dimension"/>
+        <attr name="ctvText_origin_color" format="color"/>
+        <attr name="ctvText_change_color" format="color"/>
+        <attr name="ctvProgress" format="float"/>
+        <attr name="ctvDirection" format="integer"/>
+    </declare-styleable>
+
+
+    <!--PullZoomLayout-->
+    <declare-styleable name="PullZoomLayout">
+        <attr name="pzHeader" format="reference"/>
+        <attr name="pzMain" format="reference"/>
+    </declare-styleable>
+
+
+    <!--HtmlTextView-->
+    <declare-styleable name="HtmlTextView">
+        <attr name="loadingImg" format="reference"/>
+        <attr name="errorImg" format="reference"/>
+        <attr name="defaultWidth" format="reference"/>
+        <attr name="defaultHeight" format="reference"/>
+    </declare-styleable>
+
+
+    <!--BorderTextView-->
+    <declare-styleable name="BorderTextView">
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="strokeColor" format="color"/>
+        <attr name="followTextColor" format="boolean"/>
+    </declare-styleable>
+
+
+    <!--显示提示的View-->
+    <declare-styleable name="TipView">
+        <attr name="tipBackgroundColor" format="color"/>
+        <attr name="tipTextColor" format="color"/>
+        <attr name="tipText" format="string"/>
+        <attr name="tipTextSize" format="dimension"/>
+    </declare-styleable>
+
+
+    <!--PowerfulRecyclerView-->
+    <declare-styleable name="PowerfulRecyclerView">
+        <attr name="dividerColor" format="color"/>
+        <attr name="dividerSize" format="dimension"/>
+        <attr name="dividerDrawable" format="reference"/>
+        <attr name="useStaggerLayout" format="boolean"/>
+        <attr name="numColumns" format="integer"/>
+        <attr name="rvOrientation" format="enum">
+            <enum name="HORIZONTAL" value="0"/>
+            <enum name="VERTICAL" value="1"/>
+        </attr>
+        <attr name="dividerMarginLeft" format="dimension"/>
+        <attr name="dividerMarginRight" format="dimension"/>
+    </declare-styleable>
+
+
+    <!--PowerfulEditText-->
+    <declare-styleable name="PowerfulEditText">
+        <!--功能的类型-->
+        <attr name="funcType">
+            <enum name="normal" value="-1"/>
+            <enum name="canClear" value="0"/>
+            <enum name="canWatchPwd" value="1" />
+        </attr>
+        <!--关闭查看密码的图标-->
+        <attr name="eyeClose" format="reference"/>
+        <!--开启查看密码的图标-->
+        <attr name="eyeOpen" format="reference"/>
+        <!--左侧Drawable的宽度-->
+        <attr name="leftDrawableWidth" format="dimension"/>
+        <!--左侧Drawable的高度-->
+        <attr name="leftDrawableHeight" format="dimension"/>
+        <!--右侧Drawable的宽度-->
+        <attr name="rightDrawableWidth" format="dimension"/>
+        <!--右侧Drawable的高度-->
+        <attr name="rightDrawableHeight" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="PhoneEditText">
+        <attr name="dividerString" format="string" />
+    </declare-styleable>
+
+
+    <!--AmountView-->
+    <declare-styleable name="AmountView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="minValue" format="integer"/>
+        <attr name="maxValue" format="integer"/>
+        <attr name="currentValue" format="integer"/>
+    </declare-styleable>
+</resources>

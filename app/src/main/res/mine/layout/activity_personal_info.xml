@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/white"
+        />
+
+    <include layout="@layout/include_top" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_log_out"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <!-- 内容 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <View
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 基本資料 -->
+                    <TextView
+                        style="@style/PersonalInfoFunctionTvTitle"
+                        android:text="@string/basic_info"
+                        />
+
+                    <View
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 頭像 -->
+                    <RelativeLayout
+                        android:id="@+id/rl_avatar_personal_info"
+                        style="@style/PersonalInfoFunctionRl"
+                        >
+
+                        <TextView
+                            style="@style/PersonalInfoFunctionTvLeft"
+                            android:text="@string/head_sculpture"
+                            />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/iv_avatar_personal_info"
+                            style="@style/PersonalInfoFunctionHeadSculpture"
+                            android:src="@mipmap/user"
+                            android:layout_toLeftOf="@+id/iv_avatar_arrow"
+                            android:layout_toStartOf="@+id/iv_avatar_arrow" />
+
+                        <ImageView
+                            android:id="@+id/iv_avatar_arrow"
+                            style="@style/PersonalInfoFunctionArrow"
+                            />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 帳號 -->
+                    <RelativeLayout
+                        android:id="@+id/rl_firebase_user_account"
+                        style="@style/PersonalInfoFunctionRl"
+                        >
+
+                        <TextView
+                            style="@style/PersonalInfoFunctionTvLeft"
+                            android:text="@string/firebase_id"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_firebase_user_account"
+                            style="@style/PersonalInfoFunctionTvRight"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 姓名 -->
+                    <RelativeLayout
+                        android:id="@+id/rl_firebase_user_name"
+                        style="@style/PersonalInfoFunctionRl"
+                        >
+
+                        <TextView
+                            style="@style/PersonalInfoFunctionTvLeft"
+                            android:text="@string/firebase_name"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_firebase_user_name"
+                            style="@style/PersonalInfoFunctionTvRight"
+                            android:layout_toLeftOf="@+id/iv_firebase_user_name_arrow"
+                            android:layout_toStartOf="@+id/iv_firebase_user_name_arrow"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iv_firebase_user_name_arrow"
+                            style="@style/PersonalInfoFunctionArrow"
+                            />
+
+                    </RelativeLayout>
+
+                    <View
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 帳號綁定 -->
+                    <TextView
+                        style="@style/PersonalInfoFunctionTvTitle"
+                        android:text="@string/account_binding"
+                        />
+
+                    <View
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 微信帳號 -->
+                    <RelativeLayout
+                        android:id="@+id/rl_wechat_account"
+                        style="@style/PersonalInfoFunctionRl"
+                        >
+
+                        <TextView
+                            style="@style/PersonalInfoFunctionTvLeft"
+                            android:text="@string/wechat_account"
+                            />
+
+                        <Switch
+                            android:id="@+id/switch_wechat_account"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            />
+
+                    </RelativeLayout>
+
+                    <View
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 保密資料 -->
+                    <TextView
+                        style="@style/PersonalInfoFunctionTvTitle"
+                        android:text="@string/confidential_information"
+                        />
+
+                    <View
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 手機號 -->
+                    <RelativeLayout
+                        android:id="@+id/rl_firebase_user_phone"
+                        style="@style/PersonalInfoFunctionRl"
+                        >
+
+                        <TextView
+                            style="@style/PersonalInfoFunctionTvLeft"
+                            android:text="@string/firebase_phone"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_firebase_user_phone"
+                            style="@style/PersonalInfoFunctionTvRight"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iv_firebase_user_phone_arrow"
+                            style="@style/PersonalInfoFunctionArrow"
+                            />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 電子信箱 -->
+                    <RelativeLayout
+                        android:id="@+id/rl_firebase_user_email"
+                        style="@style/PersonalInfoFunctionRl"
+                        >
+
+                        <TextView
+                            style="@style/PersonalInfoFunctionTvLeft"
+                            android:text="@string/firebase_email"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_firebase_user_email"
+                            style="@style/PersonalInfoFunctionTvRight"
+                            android:layout_toLeftOf="@+id/iv_firebase_user_email_arrow"
+                            android:layout_toStartOf="@+id/iv_firebase_user_email_arrow"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iv_firebase_user_email_arrow"
+                            style="@style/PersonalInfoFunctionArrow"
+                            />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <!-- 修改密碼 -->
+                    <RelativeLayout
+                        android:id="@+id/rl_modify_password"
+                        style="@style/PersonalInfoFunctionRl"
+                        >
+
+                        <TextView
+                            style="@style/PersonalInfoFunctionTvLeft"
+                            android:text="@string/modify_password"
+                            />
+
+                        <ImageView
+                            android:id="@+id/iv_modify_password_arrow"
+                            style="@style/PersonalInfoFunctionArrow"
+                            />
+
+                    </RelativeLayout>
+
+                    <View
+                        style="@style/PersonalInfoFunctionDivider"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="@color/color_F3F5F4"
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_log_out"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_log_out"
+                style="@style/PersonalInfoFunctionBtnSignOut"
+                android:text="@string/log_out" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

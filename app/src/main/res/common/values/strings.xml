@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+    <string name="app_name">UTfamily</string>
+    <string name="app_title">SmartRoomService</string>
+
+
+    <!-- [START Firebase Authentication] -->
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="forgot_password_msg">To reset password, enter your email, press the button and check mail to follow instruction.</string>
+    <string name="btn_reset_password">reset password</string>
+    <string name="btn_back">back</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="auth_failed">Authentication failed</string>
+    <string name="start_phone_auth">Start</string>
+    <string name="verify_phone_auth">Verify</string>
+    <string name="resend_phone_auth">Resend</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="status_code_sent">Code Sent</string>
+    <string name="status_verification_failed">Verification failed</string>
+    <string name="status_verification_succeeded">Verification succeeded</string>
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="passwordless_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="passwordless_title_text">Passwordless Sign In</string>
+    <string name="status_email_not_sent">Send link to your email to get started.</string>
+    <string name="status_email_sent">Link sent, check your email to continue.</string>
+    <string name="status_link_found">Link received, enter email to sign in.</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+    <!-- [END Firebase Authentication] -->
+
+
+    <!-- [START Firebase Cloud Messaging] -->
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+    <!-- [END Firebase Cloud Messaging] -->
+
+
+    <!-- [START Firebase Storage] -->
+    <string name="camera_button_text">Upload</string>
+    <string name="take_photo_prompt">Upload a Photo</string>
+    <string name="download">Download</string>
+    <string name="rationale_storage">This sample reads images from your camera to demonstrate uploading.</string>
+    <string name="label_link">Link to Uploaded File</string>
+    <string name="label_download">Download File</string>
+    <string name="success">Success</string>
+
+    <string name="progress_downloading">Downloading…</string>
+    <string name="progress_uploading">Uploading…</string>
+    <string name="progress_auth">Signing In…</string>
+
+    <string name="upload_success">Upload finished</string>
+    <string name="upload_failure">Upload failed</string>\
+
+    <string name="download_success">Download finished</string>
+    <string name="download_failure">Download failure</string>
+    <!-- [END Firebase Storage] -->
+
+
+    <!-- [START Auto Check Update] -->
+    <string name="CheckAppUpdate_update_no">Cancel</string>
+    <string name="CheckAppUpdate_update_yes">Update</string>
+    <string name="CheckAppUpdate_update_version">Version update</string>
+    <string name="CheckAppUpdate_downloading">Downloading</string>
+    <string name="CheckAppUpdate_sdcard_not_mounted">SD card has not been mounted</string>
+    <string name="CheckAppUpdate_sdcard_permissions_not_opened">You have not opened SD card permissions</string>
+    <string name="CheckAppUpdate_friendly_reminder">Friendly reminder</string>
+    <string name="CheckAppUpdate_sdcard_permission_need">Need SD card read permission</string>
+    <string name="CheckAppUpdate_set_permission_yes">Go to set</string>
+    <string name="CheckAppUpdate_set_permission_no">Cancel</string>
+    <string name="CheckAppUpdate_sdcard_permission_get_succeed">Get SD card permissions successfully</string>
+    <string name="CheckAppUpdate_sdcard_permission_get_failed">Failed to get SD card permission</string>
+    <string name="CheckAppUpdate_sdcard_permission_no">No SD card read permission has been obtained</string>
+    <string name="CheckAppUpdate_setting_back">User returned from setting</string>
+
+    <string name="CheckAppUpdate_download_cancel">Cancel</string>
+    <string name="CheckAppUpdate_download_ok">OK</string>
+    <string name="CheckAppUpdate_download_continue">Continue</string>
+    <string name="CheckAppUpdate_tips">Tips</string>
+
+    <string name="CheckAppUpdate_find_new_version">Find new version : 1.0.9487</string>
+    <string name="CheckAppUpdate_update_notice">Update notice</string>
+    <string name="CheckAppUpdate_click_to_download_update">Click to download update</string>
+    <!-- [END Auto Check Update] -->
+
+
+    <!-- [START APP] -->
+    <string name="label_Splash">Splash</string>
+    <string name="label_Login">Login</string>
+    <string name="label_reset_password">Reset password</string>
+    <string name="label_Onboarding">Onboarding</string>
+    <string name="label_Home">Home</string>
+    <string name="label_Management">Management</string>
+    <string name="label_Member">Member</string>
+    <string name="label_Mine">Mine</string>
+    <string name="label_DynamicShare">Dynamic Share</string>
+    <string name="label_FCMMessage">Cloud Messaging</string>
+    <string name="label_FileManager">File Manager</string>
+    <string name="label_MailCenter">Mail Center</string>
+    <string name="label_PersonalInfo">Personal Info</string>
+    <string name="label_Avatar">Avatar</string>
+    <string name="label_Image">Image</string>
+    <string name="label_Settings">Settings</string>
+    <string name="label_NotifyDialog">Notify Dialog</string>
+
+    <string name="OnBoardingSkip">SKIP</string>
+    <string name="OnBoardingNext">NEXT</string>
+    <string name="click_again_to_exit">Click again to exit UTfamily</string>
+
+    <string name="homepage">Home</string>
+    <string name="management">Manage</string>
+    <string name="member">Member</string>
+    <string name="mine">Mine</string>
+
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <!-- [END APP] -->
+</resources>

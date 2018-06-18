@@ -1,0 +1,158 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        applicationId "com.ufotech.ufo.utfamily"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.version_code
+        versionName rootProject.ext.version_name
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true // method bigger than 65k
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true  // 是否去除無效的資源文件
+            // 混淆的配置文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+//    packagingOptions {
+//        exclude 'LICENSE.txt'
+//    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    sourceSets {
+        // 目錄結構設置
+        main {
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+            java.srcDirs = ['src/main/java', '.apt_generated']
+            aidl.srcDirs = ['src/main/aidl', '.apt_generated']
+            assets.srcDirs = ['src/main/assets']
+            res.srcDirs =
+                    [
+                            'src/main/res/common',
+                            'src/main/res/home',
+                            'src/main/res/manage',
+                            'src/main/res/member',
+                            'src/main/res/mine'
+                    ] // res 目錄的拆分
+        }
+    }
+}
+
+configurations.all {
+    resolutionStrategy.force "com.android.support:support-annotations:$rootProject.ext.supportVersion"
+}
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:multidex:1.0.3'
+
+    implementation "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
+    implementation "com.android.support:animated-vector-drawable:$rootProject.ext.supportVersion"
+    implementation "com.android.support:support-v4:$rootProject.ext.supportVersion"
+    implementation "com.android.support:support-compat:$rootProject.ext.supportVersion"
+    implementation "com.android.support:cardview-v7:$rootProject.ext.supportVersion"
+    implementation "com.android.support:design:$rootProject.ext.supportVersion"
+
+    // Firebase 核心
+    implementation 'com.google.firebase:firebase-core:16.0.0'
+    // Firebase Authentication
+    implementation 'com.google.firebase:firebase-auth:16.0.1'
+
+    // Google Sign In SDK (only required for Google Sign In)
+    implementation 'com.google.android.gms:play-services-auth:15.0.1'
+
+    // Firebase UI
+    // Used in FirebaseUIActivity.
+    implementation 'com.firebaseui:firebase-ui-auth:3.3.1'
+
+    // Facebook Android SDK (only required for Facebook Login)
+    // Used in FacebookLoginLoginActivity.
+    implementation 'com.facebook.android:facebook-android-sdk:4.32.0'
+    implementation "com.android.support:customtabs:$rootProject.ext.supportVersion"
+
+    // Twitter Android SDK (only required for Twitter Login)
+    implementation 'com.twitter.sdk.android:twitter-core:3.2.0'
+    implementation 'com.twitter.sdk.android:twitter:3.2.0'
+
+    // Firebase Cloud Messaging
+    implementation 'com.google.firebase:firebase-messaging:17.0.0'
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+
+    // Firebase Storage
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
+
+    // Firebase Database
+    implementation 'com.google.firebase:firebase-database:16.0.1'
+
+    // Firebase Crashlytics
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.3'
+
+    // Testing dependencies
+    implementation 'com.android.support.constraint:constraint-layout:1.1.1'
+    implementation "com.android.support:support-vector-drawable:$rootProject.ext.supportVersion"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation "com.android.support:support-annotations:$rootProject.ext.supportVersion"
+
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.10.0'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    /* ButterKnife是一個使用註解方式讓程式碼更加簡潔易讀的第三方類別庫 */
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    /* KLog(log管理) - 這是一個Android專題的LogCat工具，主要性能Bullet簽名，函數教程，Json分析，XML分析，跳轉跳轉，日誌識別保存功能 */
+    implementation 'com.github.zhaokaiqiang.klog:library:1.6.0'
+    /* An image loading and caching library for Android focused on smooth scrolling */
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    /* Event bus for Android and Java that simplifies communication between Activities, Fragments, Threads, Services, etc. Less code, better quality. */
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    /* 開源動畫庫 */
+    implementation 'com.nineoldandroids:library:2.4.0'
+    /* An Android library that makes developers use SQLite database extremely easy. */
+    implementation 'org.litepal.android:core:1.6.1'
+    /* StateView 一个轻量级的控件, 继承自 View, 吸收了 ViewStub 的一些特性, 初始状态下是不可见的, 不占布局位置, 占用内存少。 当进行操作显示空/重试/加载视图后, 该视图才会被添加到布局中。 */
+    implementation 'com.github.nukc.stateview:library:1.5.0'
+    /* 圓形大頭貼 */
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    /* 換頁的動畫效果 */
+    implementation 'com.github.chaychan:SlideCloseLib:1.0.0'
+    /* 基於BaseRecyclerViewAdapterHelper封裝多條目適配器，子條目單獨在對應的ItemProvider中，便於項目維護 */
+    implementation 'com.github.chaychan:MultipleItemRvAdapter:1.0.4'
+    /* 簡化請求運行時權限流程，AndPermission支持在Android 5.0（Api級別21）及更高的系統中請求權限，在比Android 5.0低的系統中它會直接返回成功 */
+    implementation 'com.yanzhenjie:permission:1.0.5'
+    /* Android VideoPlayer MediaPlayer VideoView MediaView Float View And Fullscreen */
+    /* implementation project(':jcvideoplayer-lib') */
+    implementation 'org.jsoup:jsoup:1.11.3'
+    implementation project(':ufoUI')
+}
+
+apply plugin: 'com.google.gms.google-services'

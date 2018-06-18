@@ -1,0 +1,41 @@
+<resources>
+    <string name="dynamic">動態</string>
+    <string name="fans">粉絲</string>
+    <string name="week_visitor">7天訪客</string>
+
+    <string name="collect">收藏</string>
+    <string name="history">歷史</string>
+    <string name="night">夜間</string>
+    <string name="virtual_experience">虛擬體驗</string>
+    <string name="bluetooth_gateway">藍牙網關</string>
+    <string name="life_supplies">生活耗材</string>
+    <string name="life_payment">生活繳費</string>
+    <string name="voice_control">語音控制</string>
+
+    <string name="small_program">我的微信小程式</string>
+    <string name="mall">我的商城</string>
+    <string name="forum">論壇</string>
+    <string name="feed_back">幫助與反應</string>
+    <string name="setting">設定</string>
+
+    <string name="basic_info">基本資料</string>
+    <string name="head_sculpture">頭像</string>
+    <string name="firebase_id">帳號</string>
+    <string name="firebase_name">姓名</string>
+    <string name="display_name">填寫姓名</string>
+    <string name="plz_input_name">請輸入姓名</string>
+    <string name="change_name_yes">確定</string>
+    <string name="change_name_no">退出</string>
+    <string name="string_overflow">字數超過了</string>
+    <string name="account_binding">帳號綁定</string>
+    <string name="wechat_account">微信帳號</string>
+    <string name="confidential_information">保密資料</string>
+    <string name="firebase_phone">手機號</string>
+    <string name="firebase_email">電子信箱</string>
+    <string name="modify_password">修改密碼</string>
+    <string name="log_out">登出</string>
+
+    <string name="is_not_directory">非資料夾</string>
+    <string name="can_not_read">無法讀取</string>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "182603343350",
+    "firebase_url": "https://utfamily-395e2.firebaseio.com",
+    "project_id": "utfamily-395e2",
+    "storage_bucket": "utfamily-395e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182603343350:android:e21dc2c8e3ca8a12",
+        "android_client_info": {
+          "package_name": "com.ufotech.ufo.utfamily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182603343350-sbpvt499672t307vjhhn84e0c6f27s00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ufotech.ufo.utfamily",
+            "certificate_hash": "a403b42c41b4c6c374bfedb681f0e28f4d473a3b"
+          }
+        },
+        {
+          "client_id": "182603343350-6jhdq3glahf2rvt3adhledpcb8lvlkc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9h6IwbysWbHEV7_A48s94WBgVwZ9F3O8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182603343350-6jhdq3glahf2rvt3adhledpcb8lvlkc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

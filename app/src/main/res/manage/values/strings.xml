@@ -1,0 +1,4 @@
+<resources>
+    <string name="networkThread_name">檢查網路連線狀態</string>
+    <string name="handlerThread_1_name">從樹莓派取得資料</string>
+</resources>

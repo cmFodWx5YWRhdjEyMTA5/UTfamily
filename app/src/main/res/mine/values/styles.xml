@@ -1,0 +1,182 @@
+<resources>
+
+    <!--MineFragment每隔主題-->
+    <style name="MineFunctionRl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+
+    <!--左邊圖片-->
+    <style name="MineFunctionIvLeft">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--左邊文字-->
+    <style name="MineFunctionTvLeft">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_222222</item>
+    </style>
+
+    <!--右邊箭頭-->
+    <style name="MineFunctionArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@mipmap/setting_arrow</item>
+    </style>
+
+    <!--下方分隔線-->
+    <style name="MineFunctionDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_E6E8E7</item>
+    </style>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--PersonalInfo每隔主題-->
+    <style name="PersonalInfoFunctionRl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+
+    <!--主題標題-->
+    <style name="PersonalInfoFunctionTvTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">@color/color_999999</item>
+        <item name="android:background">@color/color_F3F5F4</item>
+    </style>
+
+    <!--左邊文字-->
+    <style name="PersonalInfoFunctionTvLeft">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_222222</item>
+    </style>
+
+    <!--右邊文字-->
+    <style name="PersonalInfoFunctionTvRight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">@color/color_999999</item>
+    </style>
+
+    <!--右方頭貼-->
+    <style name="PersonalInfoFunctionHeadSculpture">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <!--右方箭頭-->
+    <style name="PersonalInfoFunctionArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@mipmap/setting_arrow</item>
+    </style>
+
+    <!--下方分隔線-->
+    <style name="PersonalInfoFunctionDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_E6E8E7</item>
+    </style>
+
+    <!--登出按鈕-->
+    <style name="PersonalInfoFunctionBtnSignOut">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/btn_log_out</item>
+    </style>
+
+    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+    <!--MailCenter每隔主題-->
+    <style name="MailFunctionRl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+
+    <!--左邊圖片-->
+    <style name="MailFunctionIvLeft">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--左上文字-->
+    <style name="MailFunctionTvUp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/color_222222</item>
+    </style>
+
+    <!--左下文字-->
+    <style name="MailFunctionTvDown">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/color_999999</item>
+    </style>
+
+    <!--右方箭頭-->
+    <style name="MailFunctionArrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@mipmap/setting_arrow</item>
+    </style>
+
+    <!--下方分隔線-->
+    <style name="MailFunctionDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/color_E6E8E7</item>
+    </style>
+
+</resources>

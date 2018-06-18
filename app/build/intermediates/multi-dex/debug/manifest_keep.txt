@@ -1,0 +1,3 @@
+# Referenced at C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:30
+-keep class com.ufotech.ufo.utfamily.app.MyApp { <init>(...); }
+

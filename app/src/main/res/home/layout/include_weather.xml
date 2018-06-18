@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_weather"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    android:weightSum="7">
+
+    <!--左區塊-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp"
+        android:paddingStart="0dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"
+        android:layout_weight="1">
+
+        <!--室外溫度數值-->
+        <TextView
+            android:id="@+id/tv_outside_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="#FFFF8D"
+            android:textStyle="bold"
+            android:textSize="50sp" />
+
+        <!--室外溫度-->
+        <TextView
+            android:id="@+id/tv_outside_temperature_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="#B2DFD8"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <!--右區塊-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--地區-->
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="#80DEEA"
+                android:textStyle="bold"
+                android:textSize="35sp" />
+
+            <!--天氣圖片-->
+            <ImageView
+                android:id="@+id/iv_weather"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end" />
+
+        </LinearLayout>
+
+        <!--天氣-->
+        <TextView
+            android:id="@+id/tv_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

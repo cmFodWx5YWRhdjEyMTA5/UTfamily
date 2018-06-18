@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9900CC</color>
+    <color name="colorPrimaryDark">#92118D</color>
+    <color name="colorAccent">#9900CC</color>
+
+    <!-- [START Firebase] -->
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="blue_grey_500">#607D8B</color>
+    <color name="blue_grey_600">#546E7A</color>
+    <color name="blue_grey_700">#455A64</color>
+    <color name="blue_grey_800">#37474F</color>
+    <color name="blue_grey_900">#263238</color>
+    <!-- [END Firebase] -->
+
+    <!-- [START Update] -->
+    <color name="update_text_color">#eb2127</color>
+    <color name="update_downloading_color">#ffffff</color>
+    <!-- [END Update] -->
+
+    <!-- [START ?????] -->
+    <color name="translucent">#aa000000</color>
+    <color name="transparent">#aa000000</color>
+
+    <color name="color_D33D3C">#D33D3C</color>
+    <color name="color_BDBDBD">#BDBDBD</color>
+    <color name="color_F3F5F4">#F3F5F4</color>
+    <color name="color_515051">#515051</color>
+    <color name="color_F2F4F3">#F2F4F3</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_e8e8e8">#e8e8e8</color>
+    <color name="color_d43d3d">#d43d3d</color>
+    <color name="color_1a1b1d">#1a1b1d</color>
+    <color name="color_b11919">#b11919</color>
+    <color name="color_F96B6B">#F96B6B</color>
+    <color name="color_3091D8">#3091D8</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+    <color name="color_f4f5f6">#f4f5f6</color>
+    <color name="color_406599">#406599</color>
+    <color name="color_cacaca">#cacaca</color>
+    <color name="color_505050">#505050</color>
+    <color name="color_C1C1C1">#C1C1C1</color>
+    <color name="color_f85959">#f85959</color>
+    <color name="color_D5E8F6">#D5E8F6</color>
+    <color name="color_4592C6">#4592C6</color>
+    <color name="color_1affffff">#1affffff</color>
+    <color name="color_E6E8E7">#E6E8E7</color>
+    <!-- [END ?????] -->
+
+    <!-- [START BottomBarLayout] -->
+    <color name="tab_gb">#F3F5F4</color>
+    <color name="tab_normal_color">#515051</color>
+    <color name="tab_selected_color">@color/colorPrimary</color>
+    <!-- [END BottomBarLayout] -->
+</resources>

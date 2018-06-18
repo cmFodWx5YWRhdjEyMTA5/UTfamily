@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <!--
+    Your Facebook App ID. See README.
+    -->
+    <string name="google_web_client_id">182603343350-6jhdq3glahf2rvt3adhledpcb8lvlkc0.apps.googleusercontent.com</string>
+
+    <!--
+        Your Facebook App ID. See README.
+    -->
+    <!--  TODO(developer): REPLACE -->
+    <string name="facebook_app_id">1696598520423511</string>
+
+    <!--
+      Your Twitter Key and Secret, see README.
+    -->
+    <!-- TODO(developer): REPLACE -->
+    <string name="twitter_consumer_key">LhWy3HlojBWZEYcPc0WbwwFI5</string>
+    <string name="twitter_consumer_secret">8BAO5PZn38GixMrXCxu5we75kJTDsaYn5VVL02BrCbKEgCbxPb</string>
+</resources>

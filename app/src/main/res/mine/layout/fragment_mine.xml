@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ufoUI.HeaderZoomLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <!--头部背景-->
+            <ImageView
+                android:id="@+id/iv_bg"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@mipmap/mine_head_bg"
+                />
+
+            <!--個人資料-->
+            <LinearLayout
+                android:id="@+id/ll_personal_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ll_count"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_avatar_mine"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@mipmap/user"/>
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="16.0sp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/right_arrow"
+                    />
+
+
+            </LinearLayout>
+
+            <!--头部动态、粉丝、7天访客-->
+            <LinearLayout
+                android:id="@+id/ll_count"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/iv_bg"
+                android:layout_marginBottom="23.0dip"
+                android:layout_marginTop="18.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="16.0sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:alpha="0.5"
+                        android:text="@string/dynamic"
+                        android:textColor="@color/white"
+                        android:textSize="12.0sp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.5dip"
+                    android:layout_height="38.0dip"
+                    android:background="@color/color_1affffff"/>
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="16.0sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:alpha="0.5"
+                        android:text="@string/fans"
+                        android:textColor="@color/white"
+                        android:textSize="12.0sp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0.5dip"
+                    android:layout_height="38.0dip"
+                    android:background="@color/color_1affffff"/>
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.9"
+                        android:text="0"
+                        android:textColor="@color/white"
+                        android:textSize="16.0sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:alpha="0.5"
+                        android:text="@string/week_visitor"
+                        android:textColor="@color/white"
+                        android:textSize="12.0sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--内容-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_count"
+                android:orientation="vertical"
+                >
+
+                <!--收藏、历史、夜间-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/my_collect"
+                        android:gravity="center"
+                        android:text="@string/collect"
+                        android:textColor="@color/color_222222"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/my_history"
+                        android:gravity="center"
+                        android:text="@string/history"
+                        android:textColor="@color/color_222222"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/night_mode"
+                        android:gravity="center"
+                        android:text="@string/night"
+                        android:textColor="@color/color_222222"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/night_mode"
+                        android:gravity="center"
+                        android:text="@string/virtual_experience"
+                        android:textColor="@color/color_222222"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+                <!--收藏、历史、夜间-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/my_collect"
+                        android:gravity="center"
+                        android:text="@string/bluetooth_gateway"
+                        android:textColor="@color/color_222222"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/my_history"
+                        android:gravity="center"
+                        android:text="@string/life_supplies"
+                        android:textColor="@color/color_222222"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/night_mode"
+                        android:gravity="center"
+                        android:text="@string/life_payment"
+                        android:textColor="@color/color_222222"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:drawablePadding="5dp"
+                        android:drawableTop="@mipmap/night_mode"
+                        android:gravity="center"
+                        android:text="@string/voice_control"
+                        android:textColor="@color/color_222222"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    style="@style/MineFunctionDivider"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/color_F3F5F4"
+                    />
+
+                <View
+                    style="@style/MineFunctionDivider"
+                    />
+
+                <!--我的微信小程式-->
+                <RelativeLayout
+                    android:id="@+id/rl_small_program"
+                    style="@style/MineFunctionRl"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_small_program"
+                        style="@style/MineFunctionIvLeft"
+                        android:src="@mipmap/my_avatar"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_small_program"
+                        style="@style/MineFunctionTvLeft"
+                        android:text="@string/small_program"
+                        android:layout_toRightOf="@+id/iv_small_program"
+                        android:layout_toEndOf="@+id/iv_small_program"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_small_program_arrow"
+                        style="@style/MineFunctionArrow"
+                        />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    style="@style/MineFunctionDivider"
+                    />
+
+                <!--我的商城-->
+                <RelativeLayout
+                    android:id="@+id/rl_mall"
+                    style="@style/MineFunctionRl"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_mall"
+                        style="@style/MineFunctionIvLeft"
+                        android:src="@mipmap/my_avatar"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_mall"
+                        style="@style/MineFunctionTvLeft"
+                        android:text="@string/mall"
+                        android:layout_toRightOf="@+id/iv_mall"
+                        android:layout_toEndOf="@+id/iv_mall"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_mall_arrow"
+                        style="@style/MineFunctionArrow"
+                        />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    style="@style/MineFunctionDivider"
+                    />
+
+                <!--論壇-->
+                <RelativeLayout
+                    android:id="@+id/rl_forum"
+                    style="@style/MineFunctionRl"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_forum"
+                        style="@style/MineFunctionIvLeft"
+                        android:src="@mipmap/my_avatar"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_forum"
+                        style="@style/MineFunctionTvLeft"
+                        android:text="@string/forum"
+                        android:layout_toRightOf="@+id/iv_forum"
+                        android:layout_toEndOf="@+id/iv_forum"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_forum_arrow"
+                        style="@style/MineFunctionArrow" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    style="@style/MineFunctionDivider"
+                    />
+
+                <!--幫助與反應-->
+                <RelativeLayout
+                    android:id="@+id/rl_feed_back"
+                    style="@style/MineFunctionRl"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_feed_back"
+                        style="@style/MineFunctionIvLeft"
+                        android:src="@mipmap/my_avatar"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_feed_back"
+                        style="@style/MineFunctionTvLeft"
+                        android:text="@string/feed_back"
+                        android:layout_toRightOf="@+id/iv_feed_back"
+                        android:layout_toEndOf="@+id/iv_feed_back"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_feed_back_arrow"
+                        style="@style/MineFunctionArrow"
+                        />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    style="@style/MineFunctionDivider"
+                    />
+
+                <!--設定-->
+                <RelativeLayout
+                    android:id="@+id/rl_setting"
+                    style="@style/MineFunctionRl"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_setting"
+                        style="@style/MineFunctionIvLeft"
+                        android:src="@mipmap/my_avatar"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_setting"
+                        style="@style/MineFunctionTvLeft"
+                        android:text="@string/setting"
+                        android:layout_toRightOf="@+id/iv_setting"
+                        android:layout_toEndOf="@+id/iv_setting"
+                        />
+
+                    <ImageView
+                        android:id="@+id/iv_setting_arrow"
+                        style="@style/MineFunctionArrow"
+                        />
+
+                </RelativeLayout>
+
+                <View
+                    style="@style/MineFunctionDivider"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/color_F3F5F4"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ufoUI.HeaderZoomLayout>
+
+</LinearLayout>
