@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\UFO\\AndroidStudioProjects\\UTfamily\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\3a1fa70e914aadeda9bee3bf20b36f40\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\ed53444fd4404e100c8071e45611631b\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a200364c968a1bdec46e534516d9b57c\\res\\values-sq\\values-sq.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
-                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
-                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,38",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,4828",
-                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
-                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,4904"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.0.0.aar\\e1768b1392543d3dfcb8bd4f78f7ea35\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.2.aar\\7b878fd64bbe9ffaa010644b3b124f6b\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f5ff5ddfa71a7b3e468981d926e8ad62\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8c973bba6e8b3e4f85bd6ecb48744832\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,4828",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,4904"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\30e75ca85e61347e34202ec801700f47\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\beb9675ed6a6a352d6fc81565c883fe4\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0328335590ae263f3a1e3a57062912bb\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -12,8 +12,10 @@ import android.widget.Toast;
 import com.ufotech.ufo.utfamily.R;
 import com.ufotech.ufo.utfamily.ui.base.BaseActivity;
 import com.ufotech.ufo.utfamily.ui.base.BasePresenter;
+import com.ufotech.ufo.utfamily.utils.UIUtils;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -68,7 +70,11 @@ public class FileManagerActivity extends BaseActivity implements View.OnClickLis
         filesList = new ArrayList<>();
         names = new ArrayList<>();
         paths = new ArrayList<>();
-        getFileDirectory(ROOT);
+        try {
+            getFileDirectory(ROOT);
+        } catch (Exception e) {
+            UIUtils.showToast("無法得到最高權限");
+        }
         simpleAdapter = new SimpleAdapter(this,
                 filesList, R.layout.adapter_file_manager, new String[]{IMG_ITEM, NAME_ITEM},
                 new int[]{R.id.image_file_manager, R.id.text_file_manager});

@@ -4,58 +4,7 @@
             "outputFile": "C:\\Users\\UFO\\AndroidStudioProjects\\UTfamily\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka\\values-ka.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\a200364c968a1bdec46e534516d9b57c\\res\\values-ka\\values-ka.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,318,429,517,622,735,819,901,984,1097,1204,1302,1415,1519,1623,1780,1878",
-                        "endColumns": "108,103,110,87,104,112,83,81,82,112,106,97,112,103,103,156,97,80",
-                        "endOffsets": "209,313,424,512,617,730,814,896,979,1092,1199,1297,1410,1514,1618,1775,1873,1954"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,38",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,214,318,429,517,622,735,819,901,984,1097,1204,1302,1415,1519,1623,1780,4696",
-                        "endColumns": "108,103,110,87,104,112,83,81,82,112,106,97,112,103,103,156,97,80",
-                        "endOffsets": "209,313,424,512,617,730,814,896,979,1092,1199,1297,1410,1514,1618,1775,1873,4772"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\3a1fa70e914aadeda9bee3bf20b36f40\\res\\values-ka\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "201",
-                        "endOffsets": "448"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "3046",
-                        "endColumns": "201",
-                        "endOffsets": "3243"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.0.0.aar\\e1768b1392543d3dfcb8bd4f78f7ea35\\res\\values-ka\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "104",
-                        "endOffsets": "309"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4587",
-                        "endColumns": "108",
-                        "endOffsets": "4691"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\f5ff5ddfa71a7b3e468981d926e8ad62\\res\\values-ka\\values.xml",
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\30e75ca85e61347e34202ec801700f47\\res\\values-ka\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\beb9675ed6a6a352d6fc81565c883fe4\\res\\values-ka\\values-ka.xml",
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\0328335590ae263f3a1e3a57062912bb\\res\\values-ka\\values-ka.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -86,6 +35,57 @@
                         "startOffsets": "4777",
                         "endColumns": "100",
                         "endOffsets": "4873"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\8c973bba6e8b3e4f85bd6ecb48744832\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,318,429,517,622,735,819,901,984,1097,1204,1302,1415,1519,1623,1780,1878",
+                        "endColumns": "108,103,110,87,104,112,83,81,82,112,106,97,112,103,103,156,97,80",
+                        "endOffsets": "209,313,424,512,617,730,814,896,979,1092,1199,1297,1410,1514,1618,1775,1873,1954"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,318,429,517,622,735,819,901,984,1097,1204,1302,1415,1519,1623,1780,4696",
+                        "endColumns": "108,103,110,87,104,112,83,81,82,112,106,97,112,103,103,156,97,80",
+                        "endOffsets": "209,313,424,512,617,730,814,896,979,1092,1199,1297,1410,1514,1618,1775,1873,4772"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\ed53444fd4404e100c8071e45611631b\\res\\values-ka\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "201",
+                        "endOffsets": "448"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "3046",
+                        "endColumns": "201",
+                        "endOffsets": "3243"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.2.aar\\7b878fd64bbe9ffaa010644b3b124f6b\\res\\values-ka\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "104",
+                        "endOffsets": "309"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4587",
+                        "endColumns": "108",
+                        "endOffsets": "4691"
                     }
                 }
             ]

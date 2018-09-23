@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.nukc.stateview:library-1.5.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.5.0.aar/a80ac2c9366416da7618f91cbe614b0b/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.5.0.aar/a80ac2c9366416da7618f91cbe614b0b/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.5.0.aar/4496a8d97a63fb6f36b035c884b6a38b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.5.0.aar/4496a8d97a63fb6f36b035c884b6a38b/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

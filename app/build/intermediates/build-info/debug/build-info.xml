@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
+    api-level="24"
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="CLASS_ADDED"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.3"
-    timestamp="1528817603571"
+    timestamp="1537644635008"
     token="3607084706840797432"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="6071" />
+        duration="5157" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="82" />
+        duration="43" />
     <task
         name="verifier"
-        duration="37" />
+        duration="20" />
 
+    <artifact
+        location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1528806987335"
+        timestamp="1537643520987"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -42,31 +42,31 @@
             location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -74,15 +74,15 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1528817603571"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1537644635008"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
         <artifact
             location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
-        <artifact
-            location="C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

@@ -355,7 +355,12 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
                     sb.append(returnAddress);
 
                     if (CountryName.equals("台灣")) {
-                        selectAdminArea(AdminArea);
+                        try {
+                            selectAdminArea(AdminArea);
+                        } catch (Exception e) {
+                            tv_location.setText(returnAddress);
+                            // TODO 弄到正確地區名稱
+                        }
                     } else {
                         tv_location.setText("目前只有台灣的氣象資訊");
                     }

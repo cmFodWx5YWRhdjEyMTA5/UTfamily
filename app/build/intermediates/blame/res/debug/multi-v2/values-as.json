@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\UFO\\AndroidStudioProjects\\UTfamily\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.0.0.aar\\e1768b1392543d3dfcb8bd4f78f7ea35\\res\\values-as\\values.xml",
+                    "source": "C:\\Users\\UFO\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.2.aar\\7b878fd64bbe9ffaa010644b3b124f6b\\res\\values-as\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

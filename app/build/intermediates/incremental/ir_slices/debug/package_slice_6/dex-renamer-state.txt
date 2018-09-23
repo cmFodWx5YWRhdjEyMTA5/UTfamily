@@ -1,4 +1,4 @@
-#Tue Jun 12 23:33:34 CST 2018
-base.0=C\:\\Users\\UFO\\AndroidStudioProjects\\UTfamily\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\24
+#Sun Sep 23 03:30:44 CST 2018
+base.0=C\:\\Users\\UFO\\AndroidStudioProjects\\UTfamily\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 path.0=classes.dex
 renamed.0=classes.dex

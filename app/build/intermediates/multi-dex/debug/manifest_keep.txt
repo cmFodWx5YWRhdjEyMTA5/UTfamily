@@ -1,3 +1,3 @@
-# Referenced at C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:30
+# Referenced at C:\Users\UFO\AndroidStudioProjects\UTfamily\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:24
 -keep class com.ufotech.ufo.utfamily.app.MyApp { <init>(...); }
 

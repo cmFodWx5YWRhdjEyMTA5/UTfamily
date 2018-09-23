@@ -275,6 +275,7 @@ com/ufotech/ufo/utfamily/app/MyApp.class
 com/ufotech/ufo/utfamily/app/base/BaseApp.class
 com/yanzhenjie/permission/PermissionNo.class
 com/yanzhenjie/permission/PermissionYes.class
+io/fabric/sdk/android/services/concurrency/DependsOn.class
 okhttp3/Address.class
 okhttp3/Authenticator.class
 okhttp3/Cache$2.class
